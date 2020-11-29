@@ -1,4 +1,4 @@
-# 169.多数元素 排序法
+# 169.多数元素/Majority Element 排序法
 class Solution:
     def majorityElement(self, nums: int) -> int:
         nums.sort()
