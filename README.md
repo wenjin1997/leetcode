@@ -4,7 +4,7 @@
 给定一个整数数组nums和一个目标值target，请你在该数组中找出和为目标值的那两个整数，并返回他们的数组下标。  
 你可以假设每种输入只会对应一个答案。但是，数组中同一个元素不能使用两遍。
 ### 题解思路
-两层遍历，先固定循环指标i,指标i遍历整个数组，再选取循环指标j，指标j从i+1遍历到数组最后，如果指标i和指标j所对应的数字相加为目标值target，则返回下标，否则继续遍历。
+两层遍历，先固定循环指标i,指标i遍历整个数组，再选取循环指标j，指标j从i+1遍历到数组最后，如果指标i和指标j所对应的数字相加为目标值target，则返回下标，否则继续遍历。  
 代码：**two_sum.py**
 
 ## 7.[整数反转/Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/)
@@ -43,6 +43,5 @@
 给定一个大小为n的数组，找到其中的多数元素。多数元素是指在数组中出现次数大于⌊n/2⌋的元素。  
 你可以假设数组是非空的，并且给定的数组总是存在多数元素。
 ### 排序法
-将数组中的元素按递增或递减方式排序，根据题中已知条件，多数元素在数组中出现次数大于⌊n/2⌋的元素，因此排序后⌊n/2⌋下标的元素是多数元素。 
-代码：**majority_element.py** 
-注：[官方解题方法](https://leetcode-cn.com/problems/majority-element/solution/duo-shu-yuan-su-by-leetcode-solution/)
+将数组中的元素按递增或递减方式排序，根据题中已知条件，多数元素在数组中出现次数大于⌊n/2⌋的元素，因此排序后⌊n/2⌋下标的元素是多数元素。注：[官方解题方法](https://leetcode-cn.com/problems/majority-element/solution/duo-shu-yuan-su-by-leetcode-solution/)    
+代码：**majority_element.py**  
