@@ -23,6 +23,6 @@ class Solution:
         return longest_common_prefix
 
 solution = Solution()
-strs = []
+strs = ["flag", "foag"]
 longest_common_prefix = solution.longestCommonPrefix(strs)
 print(longest_common_prefix)
