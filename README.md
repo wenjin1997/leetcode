@@ -5,7 +5,7 @@
 你可以假设每种输入只会对应一个答案。但是，数组中同一个元素不能使用两遍。
 ### 题解思路
 两层遍历，先固定循环指标i,指标i遍历整个数组，再选取循环指标j，指标j从i+1遍历到数组最后，如果指标i和指标j所对应的数字相加为目标值target，则返回下标，否则继续遍历。  
-代码：**two_sum.py**
+代码：**two_sum.py**  
 
 ## 7.[整数反转/Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/)
 ### 题目描述
