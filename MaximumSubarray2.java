@@ -16,9 +16,9 @@ public class MaximumSubarray2 {
 		int thisSum = 0, maxSum = nums[0];
 		for(int i = 0; i < n; i++) // 子列的左端
 		{
+			thisSum = 0;
 			for(int j = i; j < n; j++) // 子列的右端
 			{
-				thisSum = 0;
 				thisSum += nums[j];
 				if(thisSum >= maxSum)
 				{
